@@ -1,0 +1,23 @@
+templates/contact.html -->
+{% extends 'base.html' %}
+{% block title %}Contact - Rebeca Suji{% endblock %}
+{% block content %}
+<div class="card p-4 mx-auto" style="max-width: 600px;" data-aos="fade-up">
+    <h2 class="mb-3">Let’s Connect</h2>
+    <form method="POST">
+        <div class="mb-3">
+            <label class="form-label">Name</label>
+            <input type="text" name="name" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" name="email" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Message</label>
+            <textarea name="message" class="form-control" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+</div>
+{% endblock %}

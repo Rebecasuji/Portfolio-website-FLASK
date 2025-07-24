@@ -1,0 +1,48 @@
+/* static/style.css */
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #f4f4f4;
+    color: #2c2c2c;
+    line-height: 1.7;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: #1d3557;
+}
+
+.navbar-brand, .nav-link {
+    color: #f8f9fa !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #a8dadc !important;
+}
+
+.hero {
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    padding: 60px 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.btn-primary {
+    background-color: #457b9d;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1d3557;
+}
+
+footer a {
+    text-decoration: underline;
+}
